@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AvatarApp</string>
+    <string name="title_activity_avatar">Avatar</string>
+</resources>
