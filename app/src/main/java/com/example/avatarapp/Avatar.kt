@@ -116,8 +116,8 @@ fun AvatarScreen(){
             painter = moustache,
             contentDescription = null,
             modifier = Modifier
-            .offset(y = 50.dp)
-            .alpha(if (moustacheVisibility.value) 1f else 0f)
+                .offset(y = 50.dp)
+                .alpha(if (moustacheVisibility.value) 1f else 0f)
         )
         }
 
@@ -185,6 +185,12 @@ fun AvatarScreen(){
             }
         }
 
+        Spacer(modifier = Modifier.height(10.dp))
+
+        Text(text = "Created by Tegar Setyo Wicaksono")
+        Text(text = "NIM : 215150400111008")
     }
+    
+
 
 }
